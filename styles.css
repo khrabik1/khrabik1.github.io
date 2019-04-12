@@ -1,13 +1,17 @@
-body{
-  /* background: url(https://wallpapercave.com/wp/wp1894821.jpg); */
-  margin:8%;
-}
 
+/* body{
+  background-color: #f2f4f7;
+} */
 
 
 .not{
 
   /* color: #99e4ff; */
+}
+
+.img-thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .imagebar{
@@ -36,11 +40,17 @@ body{
 }
 
 .jumbotron{
-  background: rgba(238, 238, 238, 0.7);
+  background: white;
+
+
+}
+
+h1{
+  color: #6f42c1;
 }
 
 .MyPicture{
-  margin-left: auto;
+  margin-left: 30px;
   margin-right: auto;
   border-top: 400px;
   /* color: #eeeeee; */
