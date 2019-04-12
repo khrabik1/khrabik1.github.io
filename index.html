@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <title></title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     </head>
@@ -14,58 +16,42 @@
 
   	<!-- DOCUMENTATION NAVBAR -->
 
-  	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">K.L.H.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Resume</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Other Links
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Interesting Articles</a>
+          <a class="dropdown-item" href="#">My GitHub</a>
+          <a class="dropdown-item" href="#">My LinkedIn Page</a>
+          <a class="dropdown-item" href="#">Letters of Recommendation</a>
+          <a class="dropdown-item" href="#">Contact Me</a>
 
-      <!-- Inside of a Container -->
-    <div class="container-fluid">
-
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <!-- This is the actual code that create the "hamburger icon" -->
-      <!-- The data-target grabs ids to put into the icon -->
-      <div class="navbar-header">
-        <!-- Works well for better mobile display  -->
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-
-          <!--  Code for the hamburger icon-->
-          <span class="sr-only">Toggle navigation</span>
-          <!-- Adding more of these adds more lines to hamburger icon -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <a class="navbar-left" href="katherynhrabik.com"></a>
-      </div>
-
-      <!-- Anything inside of collapse navbar-collapse goes into the "hamburger" -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Research<span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Resume</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other Links<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Github</a></li>
-              <li><a href="http://www.google.com">LinkedIn</a></li>
-              <li><a href="#">Something Else</a></li>
-
-              <!-- Use this to separate a new link -->
-
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Letters of Recommendation</a></li>
-            </ul>
-          </li>
-        </ul>
-
-
-
-
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
 
   <!-- OTHER STUFF ON THE PAGE -->
+
+
 
 <p></p><p></p>
 <p>     </p>
@@ -81,16 +67,42 @@
 
   <p> </p><p> </p><p> </p><p> </p><p> </p>
 
+  <!-- <div class="container">
+    <div class="not">
+    <h2>More Stuff</h2>
+    <p>lorem</p>
+    <p>Test Test</p>
+  </div>
+  </div> -->
+
+  <div class="container">
+    <div class="jumbotron">
+
+      <h1>Welcome to my personal Website</h1>
+      <p></p>
+      <h3>A little bit about me</h3>
+      <p>I am a recent graduate from DePaul University, with a Masters of Science in Computer Science.
+      I focused my studies in Artificial Intelligence and data science, becoming an expert in such
+      technologies as Natural Language Processing, Machine Learning, and Neural Networks and Deep Learning.</p>
+
+      <p>While at DePaul University, I participated in graduate research with professor Clark Elliott PhD,
+
+      </p>
+
+    </div>
+
+  </div>
+
   <div class="container">
 
       <div class="row">
-        <div class="col-lg-4 col-xs-6 thumbnail"><a href="articles.html"><img  src="articles_website.jpeg" alt="">Interesting Articles</div></a>
-        <div class="col-lg-4 col-xs-6 thumbnail"><a href="#"><img src="projects_laptop.jpeg" alt="">Personal Projects</div></a>
-        <div class="col-lg-4 col-xs-6 thumbnail"><a href="#"><img  src="research_notebook.jpeg" alt="">Research</div></a>
-        <div class="col-lg-4 col-xs-6 thumbnail"><a href="#"><img  src="resume_papers.jpeg" alt="">Resume</div></a>
-        <div class="col-lg-4 col-xs-6 thumbnail"><a href="#"><img  src="letters_rec_sig.jpeg" alt="">Letters of Recommendation</div></a>
-        <div class="col-lg-4 col-xs-6 thumbnail"><a href="#"><img  src="contact_phone.jpg" alt="">Contact Me</div></a>
-      </div>
+        <div class="col-lg-4 col-sm-6 img-thumbnail"><a href="articles.html"><img  src="articles_website.jpeg" alt="">Interesting Articles</div></a>
+        <div class="col-lg-4 col-sm-6 img-thumbnail"><a href="#"><img src="projects_laptop.jpeg" alt="">Personal Projects</div></a>
+        <div class="col-lg-4 col-sm-6 img-thumbnail"><a href="#"><img  src="research_notebook.jpeg" alt="">Research</div></a>
+        <div class="col-lg-4 col-sm-6 img-thumbnail"><a href="#"><img  src="resume_papers.jpeg" alt="">Resume</div></a>
+        <div class="col-lg-4 col-sm-6 img-thumbnail"><a href="#"><img  src="letters_rec_sig.jpeg" alt="">Letters of Recommendation</div></a>
+        <div class="col-lg-4 col-sm-6 img-thumbnail"><a href="#"><img  src="contact_phone.jpg" alt="">Contact Me</div></a>
+
 
     </div>
 
@@ -119,24 +131,29 @@
 
 
 
-  <div class="container">
-    <div class="not">
-    <h2>More Stuff</h2>
-    <p>lorem</p>
-    <p>Test Test</p>
-  </div>
-  </div>
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://www.KatherynHrabik.com"> KatherynHrabik.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
 
 
 
   <!-- Need to have JQuery and Javascript for DropDown Actions to work -->
 
-  <script
-  src="http://code.jquery.com/jquery-3.1.1.js"
-  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-  crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/jquery.easeScroll.js"></script>
 
 
 </body>
