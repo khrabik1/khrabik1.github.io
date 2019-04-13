@@ -27,15 +27,7 @@
 }
 
 
-.headshot{
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 
-  height:300px;
-  border-radius: 30%;
-}
 
 .jumbotron{
   background: white;
@@ -47,23 +39,6 @@ h1{
   color: #6f42c1;
 }
 
-.MyPicture{
-
-
-  /* color: #eeeeee; */
-  color: #343a40;
-  background-image: url("banner_crinkle.jpeg");
-
-  border-bottom: 4px;
-  border-bottom-color: #343a40;
-  border-bottom-style: solid;
-  border-top: 4px;
-  border-top-color: #343a40;
-  border-top-style: solid;
-
-  font-family: 'Righteous', cursive;
-  font-size: 40px;
-  font-size: 6.5vw;
-
-
+h6{
+  color:#28a745;
 }
