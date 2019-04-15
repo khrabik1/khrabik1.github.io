@@ -26,7 +26,17 @@
   height: 100%;
 }
 
+.CenteredHeader{
+  text-align: center;
+}
 
+.CenteredHeadshot img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    height: 220px;
+    width: 140px;
+}
 
 
 .jumbotron{
